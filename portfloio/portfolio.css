@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: teal;
+    color:white;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color:rgb(50,10,211);
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    gap: 20px;
+    list-style: none;
+
+}
+.logo{
+    font-size: 22px;
+    font-weight: 700;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.nav-links a:hover{
+    color: gold;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 80px 8% 0;
+    
+}
+.hero-content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+gap: 40px;
+}
+.hero-text h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.hero-text h3{
+    color: black;
+    margin-bottom: 15px;
+}
+.hero-text p{
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.hero-image img{
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    transition: 0,4s;
+    height: auto;
+}
+.hero-image img:hover{
+    transform: scale(1.05);
+}
+.btn{
+    display: inline-block;
+    background-color: gold;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn:hover{
+    transform: translate(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+
+}
+.section{
+    padding: 80px 8%;
+
+}
+.card{
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translate(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+
+}
+.contact-form input, .contact-form textarea{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+
+}
+
+.footer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+#experience{
+    background: rgba(255,255,255,0,05);
+    transition: 0.3s;
+}
+#experience:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4));
+}
